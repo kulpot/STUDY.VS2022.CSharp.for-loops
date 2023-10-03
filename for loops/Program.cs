@@ -14,7 +14,9 @@ class MyClass
         //    i = i + 1;
         //}
         //Console.WriteLine("Done"); // output 1 to 20 Done
-        for (int i = 1; i <= 20; i = i + 1)
+        
+        //for (int i = 1; i <= 20; i = i + 1)
+        for (int i = 1; i <= 20; i++)   // i = i + 1 same as i++
         {
             Console.WriteLine(i);
         }
